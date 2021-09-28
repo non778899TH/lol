@@ -2178,7 +2178,7 @@ do
 end
 
 
-		local L9s0 = library.new("9s0 Hub - Blox Fruit (Starter World)")
+		local L9s0 = library.new("Rarb Ice 101 Hub - Blox Fruit (Starter World)")
 
 		local M9s0 = L9s0:addPage("Main", 7010566435)
 
@@ -4289,7 +4289,7 @@ end
 
 		local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/9s0/uif/main/README.md"))()
 
-		local L9s0 = library.new("9s0 Hub - Blox Fruit (New World)")
+		local L9s0 = library.new("Rarb Ice 101 Hub - Blox Fruit (New World)")
 
 		local M9s0 = L9s0:addPage("Main", 7010566435)
 
@@ -6553,6 +6553,10 @@ end
 
 		S9s06:addButton("Open Color Haki",function()
 			game.Players.localPlayer.PlayerGui.Main.Colors.Visible = true
+		end)
+		
+		S9s06:addButton("Open Devil Fruit Inventory",function()
+			game.Players.localPlayer.PlayerGui.Main.FruitInventory.Visible = true
 		end)
 
 		S9s06:addButton("Open Title Name",function()
