@@ -95,6 +95,3 @@ btns:Button("How to use", function()
         end)
 
 serv:Channel("by KakIceKakSusSus")
-
-
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
