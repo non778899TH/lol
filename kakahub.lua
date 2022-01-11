@@ -47,6 +47,17 @@ btns:Button("Get Badge Chapter 2", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1026.65466, 72.8285217, -353.696198, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
 end)
 
+btns:Button("Auto Win Chapter 2 NightMare", function()
+    for i,v in pairs(Game.Players:GetChildren()) do
+        if v.Name ~= "owner.Name" then
+        Game:GetService("TeleportService"):Teleport(6485056556, v.Character)
+        end
+        end
+end)
+btns:Button("Get Badge Chapter 2 NightMare", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1026.65466, 72.8285217, -353.696198, -1.1920929e-07, 0, 1.00000012, 0, 1, 0, -1.00000012, 0, -1.1920929e-07)
+end)
+
 btns:Seperator()
 
 btns:Button("How to use", function()
