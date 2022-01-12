@@ -1197,3 +1197,100 @@ end)
 btns:Button("Change to USA", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66, -298, -40.5010376, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
+
+--THE RAKE™: Classic Edition | HALLOWS 🎃
+
+local serv = win:Server("THE RAKE", "")
+
+local btns = serv:Channel("Misc")
+btns:Button("ESP The Rake", function()
+while wait() do
+    function CreateESPPart(BodyPart,color)
+        local ESPPartparent = BodyPart
+        local Box = Instance.new("BoxHandleAdornment")
+        Box.Size = BodyPart.Size + Vector3.new(0.1, 0.1, 0.1)
+        Box.Name = "ESPPart"
+        Box.Adornee = ESPPartparent
+        Box.Color3 = color
+        Box.AlwaysOnTop = true
+        Box.ZIndex = 5
+        Box.Transparency = 0
+        Box.Parent = BodyPart
+        end
+        CreateESPPart(game:GetService("Workspace").Rake.Torso, Color3.fromRGB(205, 84, 75)) 
+    end
+end)
+
+btns:Button("Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+btns:Button("Full Bright", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7S3aQsQF'))()
+end)
+
+btns:Button("Anti-Afk", function()
+    wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by Headshot#5868"
+_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox kicked you but we didnt let them!"wait(2)ab.Text="Status : Active"end)
+end)
+
+local btns = serv:Channel("Teleport")
+
+btns:Button("Shop", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-26.59178352356, 16.331001281738, -251.82487487793)})
+    tween:Play()
+end)
+
+btns:Button("Power Plant", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-312.24520874023, 19.600996017456, -217.61726379395)})
+    tween:Play()
+end)
+
+btns:Button("Leaderboard", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(15.311573982239, 14.432651519775, -316.16302490234)})
+    tween:Play()
+end)
+
+btns:Button("Tower (Down)", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(66.086898803711, 13.263698577881, -72.430885314941)})
+    tween:Play()
+end)
+
+btns:Button("Base Camp", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-55.12536239624, 17.664190292358, 207.0266418457)})
+    tween:Play()
+end)
+
+btns:Button("Safe House (Inside)", function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+
+    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-369.32202148438, 16.125045776367, 81.820686340332)})
+    tween:Play()
+end)
