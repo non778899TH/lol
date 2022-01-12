@@ -1187,3 +1187,13 @@ btns:Button("Hop Server", function()
     -- If you'd like to use a script before server hopping (Like a Automatic Chest collector you can put the Teleport() after it collected everything.
     Teleport()
 end)
+
+
+local btns = serv:Channel("Team")
+btns:Button("Change to Japan", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(66, -298, 40.4989738, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+btns:Button("Change to USA", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66, -298, -40.5010376, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
