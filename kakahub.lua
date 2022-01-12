@@ -94,4 +94,25 @@ btns:Button("How to use", function()
         DiscordLib:Notification("Notification", "Click Auto Win Chapter 3 then click get Badge Chapter 3", "K Kab!")
         end)
 
+        local btns = serv:Channel("Chapter 4")
+        btns:Button("Coming Soon", function()
+            DiscordLib:Notification("Notification", "Comming Soon", "K Kab!")
+            end)
+
+            local btns = serv:Channel("Misc")
+            btns:Button("Anti Cheat Bypass", function()
+                game:GetService("Players").LocalPlayer.PlayerScripts["Anti-Fly"]:Destroy()
+                game:GetService("Players").LocalPlayer.PlayerScripts["Anti-Speed"]:Destroy()
+            end)
+
+            btns:Button("Infinite Yield", function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+            end)
+            
+            btns:Button("Full Bright", function()
+                loadstring(game:HttpGet('https://pastebin.com/raw/7S3aQsQF'))()
+            end)
+
+
+
 serv:Channel("by KakIceKakSusSus")
